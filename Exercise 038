@@ -1,0 +1,13 @@
+thirtyone_days = ["april","june","september","november"]
+thirty_days = ["january","march","may","july","august","october","december"]
+
+month = input("Month: ")
+
+if month in thirtyone_days:
+    print("This month has 30 days.")
+elif month in thirty_days:
+    print("This month has 31 days.")
+elif month == "february":
+    print("February has 28 days. 29 days in a leap year.")
+else:
+    print("Perhaps you mispelled the word. Do not use capital letters.")
